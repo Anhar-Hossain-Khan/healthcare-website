@@ -1,0 +1,56 @@
+[
+    {
+      "id": 1,
+      "name": "Dental Care",
+      "description": "Dental or oral health is concerned with your teeth, gums and mouth. The goal is to maintain the overall health of your mouth.",
+      "img": "https://image.freepik.com/free-photo/beautiful-girl-sitting-dentist-s-office_1157-21014.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Diagnostic center",
+      "description": "Diagnostic care includes tests ordered by a physician help diagnose or monitor your condition or disease.",
+      "img": "https://image.freepik.com/free-photo/scientist-chemist-taking-dna-sample-medical-discovery_482257-8187.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Intensive Care Unit",
+      "description": "Intensive care units (ICUs) are specialist hospital wards that provide treatment and monitoring for people who are very ill.",
+      "img": "https://as1.ftcdn.net/v2/jpg/00/58/62/80/500_F_58628049_1KCSMEqNwS0MplaY00wtdwfFPVvcqRvh.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Operation Theater",
+      "description": "An operating theater (also known as an operating room (OR)) is a facility within a hospital where surgical operations ",
+      "img": "https://image.freepik.com/free-photo/surgeons-adjusting-oxygen-mask-patient-mouth-operation-theater_107420-64870.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Ambulance",
+      "description": "Ambulance services are used to respond to medical emergencies by emergency medical services.",
+      "img": "https://image.freepik.com/free-photo/british-ambulance-parked-parking-lot_53876-63437.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Pharmaceutical care",
+      "description": "Pharmaceutical care is a practice in which the practitioner takes responsibility for a patient's drug-related needs.",
+      "img": "https://image.freepik.com/free-photo/portrait-cheerful-handsome-pharmacist-leaning-counter-drugstore_109710-1738.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Cardiology ",
+      "description": "Cardiology is the study and treatment of disorders of the heart and the blood vessels of human body.",
+      "img": "https://image.freepik.com/free-photo/female-doctor-using-stethoscope-check-old-woman-heart-nursing-home_482257-22868.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Radiology",
+      "description": "Radiology is the medical discipline that uses medical imaging to diagnose and treat diseases within the bodies humans.",
+      "img": "https://image.freepik.com/free-photo/dentist-showing-x-ray-patient_107420-65394.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Ophthalmology",
+      "description": "Ophthalmologists are specialist eye doctors who diagnose, treat and monitor eye conditions with medication and surgery.",
+      "img": "https://image.freepik.com/free-photo/ophthalmologist-checking-patient-her-clinic_23-2149082440.jpg"
+    }
+  ]
