@@ -20,7 +20,7 @@ const Header = () => {
        <Navbar.Text>
         <a href="#login" className="text-danger text-decoration-none" >{user?.displayName}</a>
       </Navbar.Text>
-       {user?.photoURL ?
+       {user?.displayName ?
          <Button  onClick={logout} variant="danger" className="ms-2 text-white" >LogOut</Button>:
          <Nav.Link as={Link} to="/login">Login</Nav.Link>
        }

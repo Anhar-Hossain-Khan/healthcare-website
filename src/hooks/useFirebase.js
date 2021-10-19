@@ -10,6 +10,7 @@ const useFirebase = () =>{
   const [name, setName] = useState("");
   const [password, setPassword] = useState("");
   const [email, setEmail] = useState("");
+  const [isLoading, setIsLoading] = useState(true);
 
   const auth = getAuth();
   const googleProvider = new GoogleAuthProvider();
@@ -39,6 +40,7 @@ const useFirebase = () =>{
       .catch((error) => {
         setError(error.message);
       });
+      
   };
 
   useEffect(() => {
@@ -46,6 +48,7 @@ const useFirebase = () =>{
       if (user) {
         setUser(user);
       }
+      setIsLoading(false);
     });
     return () => unsubscribe;
   }, []);
@@ -54,7 +57,7 @@ const useFirebase = () =>{
     createUserWithEmailAndPassword(auth, email, password)
       .then((result) => {
         setNameAndImage();
-        alert("User has been created");
+        alert("User created");
       })
       .catch((err) => {
         setError(err.message);
@@ -73,6 +76,7 @@ const useFirebase = () =>{
 
   return {
     user,
+    isLoading,
     error,
     setError,
     signInWithEmail,
