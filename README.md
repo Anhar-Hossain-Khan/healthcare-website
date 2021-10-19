@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+### Getting Started with GreenLife Hospital website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Live Website Link: https://healthcare-website-9621f.web.app
 
-## Available Scripts
+### Description:
 
-In the project directory, you can run:
+=> GreenLife Hospital website will become very helpful for patients and get updated information.In this website will provide services,doctors and activities informaton.For getting update information need to create account at first and then logged in.
 
-### `npm start`
+### Functionality
+=> In this project created by usuing, six react core concepts(JSX, components, props, useState, UseEffect and Event handler )
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+=>For this project, I used React Bootstrap Framework and React Router dom.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+=> In the project used components which is Similar in look different in data.
 
-### `npm test`
+=> For better Performing used  create new json data.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+=> In this project created login and signup system by firebase and also used context api and private Route
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Project Feature
+=> In this project, greenLife Hospital website where services created by (name, img, description) information usuing cards.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+=> After adding Services Cards information are updated.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+=> In this project create login and signup panel.
 
-### `npm run eject`
+=> This project will became helpful for patient.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=> we use auth context in this project.
