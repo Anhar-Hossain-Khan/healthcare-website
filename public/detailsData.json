@@ -1,0 +1,15 @@
+[
+      {
+        "id": 1,
+        "name": "Dental Care",
+        "description": "Dental or oral health is concerned with your teeth, gums and mouth. The goal is to maintain the overall health of your mouth.",
+        "img": "https://image.freepik.com/free-photo/beautiful-girl-sitting-dentist-s-office_1157-21014.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Laboratory and diagnostic care",
+        "description": "Diagnostic care includes tests/procedures ordered by a physician and office visits needed to help diagnose or monitor your condition or disease.",
+        "img": "https://image.freepik.com/free-photo/scientist-chemist-taking-dna-sample-medical-discovery_482257-8187.jpg"
+      }
+    ]
+  
