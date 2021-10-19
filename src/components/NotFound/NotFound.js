@@ -1,6 +1,6 @@
 import React from 'react';
 import './NotFound.css'
-import notFound from '../../images/404.png'
+import notFound from '../../images/notfound.jpg'
 import { Link } from 'react-router-dom';
 import { Button} from 'react-bootstrap';
 

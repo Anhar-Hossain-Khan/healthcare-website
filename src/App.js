@@ -11,6 +11,8 @@ import PrivateRoute from './components/Login/PrivateRoute/PrivateRoute';
 import ServiceDetails from './components/Home/ServiceDetails/ServiceDetails';
 import Services from './components/Home/Services/Services';
 import Doctors from './components/Home/Doctors/Doctors';
+import Register from './components/Login/Register/Register';
+import Activities from './components/Home/Activities/Activities';
 
 function App() {
   return (
@@ -35,13 +37,21 @@ function App() {
         <Services></Services>
         </Route>
 
-        <Route path="/doctors">
-        <Doctors></Doctors>
-        </Route>
-
         <PrivateRoute path="/details/:serviceId">
          <ServiceDetails></ServiceDetails>
         </PrivateRoute>
+
+        <PrivateRoute path="/doctors">
+        <Doctors></Doctors>
+        </PrivateRoute>
+
+        <PrivateRoute path="/activities">
+        <Activities></Activities>
+        </PrivateRoute>
+
+        <Route path="/register">
+        <Register></Register>
+        </Route>
 
         <Route path="*">
           <NotFound></NotFound>

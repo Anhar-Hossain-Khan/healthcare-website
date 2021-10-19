@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from 'react';
 import { Col, Container, ListGroup, Row, Button } from 'react-bootstrap';
 import { useParams } from 'react-router';
@@ -8,7 +7,6 @@ const ServiceDetails = () => {
     const {serviceId} = useParams();
     const [details, setDetails] = useState([])
     console.log(details);
-    
     useEffect(()=>{
         fetch('/services.json')
         .then(response => response.json())
@@ -18,7 +16,6 @@ const ServiceDetails = () => {
     const foundDetails =  details.find(detail => detail.id===serviceId);
     console.log(foundDetails);
    
-
     return (
        <div>
        <div className="top mb-4">
@@ -33,10 +30,10 @@ const ServiceDetails = () => {
             <Col sm={12} md={6} lg={6} xl={6} className="mt-5 pt-3 ">
               <ListGroup vertical className="border border-primary rounded-3">
                 <ListGroup.Item>
-                  <h2>{details[0]?.name}</h2>
+                  <h2 className="text-info">{details[0]?.name}</h2>
                 </ListGroup.Item>
                 <ListGroup.Item>
-                  <h2>Service Details Id: {serviceId}</h2>
+                  <h2 className="text-primary">Service Details Id: {serviceId}</h2>
                 </ListGroup.Item>
                 <ListGroup.Item>
                   <h6 style={{ float: "left" }}>
